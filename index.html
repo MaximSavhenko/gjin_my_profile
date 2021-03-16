@@ -25,7 +25,7 @@
                     <div class="header__logo">
                         <img src="./assets/images/index/nav_logo.png" alt="">
                     </div>
-                        <div class="header__btn-menu navbar-toggle">
+                        <div class="header__btn-menu">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -36,6 +36,7 @@
                         </div>
                 </div>
             </header>
+            
             
 
             
@@ -64,39 +65,36 @@
                                 <span>Machen Sie sich auf die Suche</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
                             </div>
-                            <div class="filter__select row">
-                                <div class="select">
-                                    <div class="select__btn">ALLE ANZEIGEN</div>
-                                    <input type="hidden" class="select__input" value="some text">
-                                    <ul class="select__list"> 
-                                    </ul>
-                                </div>
-                                <div class="select">
-                                    <div class="select__btn">Nach DATUM</div>
-                                    <input type="hidden" class="select__input" value="some text">
-                                    <ul class="select__list">
-                                        
-                                    </ul>
-                                </div>
-                                <div class="select">
-                                    <div class="select__btn">Nach Branche</div>
-                                    <input type="hidden" class="select__input" value="some text">
-                                    <ul class="select__list">
-                                        <li class="select__item" data-value="item__1">Item1</li>
-                                        <li class="select__item" data-value="item__2">Item2</li>
-                                        <li class="select__item" data-value="item__3">Item3</li>
-                                    </ul>
-                                </div>
-                                <div class="select">
-                                    <div class="select__btn">Nach ORT</div>
-                                    <input type="hidden" class="select__input" value="some text">
-                                    <ul class="select__list">
-                                        <li class="select__item" data-value="item__1">Item1</li>
-                                        <li class="select__item" data-value="item__2">Item2</li>
-                                        <li class="select__item" data-value="item__3">Item3</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <form class="filter__select row">
+                                <select name="" id="">
+                                    <option value="">ALLE ANZEIGEN</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="">Nach DATUM</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="">Nach Branche</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="">Nach ORT</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                            </form>
                         </div>
                         <div class="filter__card">
                             <div class="row">
@@ -413,32 +411,52 @@
                 </div>
             </footer>            <div class="burger">
                 <div class="burger__wrapp">
-                    <nav class="burger__nav">
-                        <ul>
-                            <li><a href="#"><span>GJIN</span> Home</a></li>
-                            <li><a href="#">Partner werden</a> </li>
-                            <li><a href="#">Anfrage</a>  </li>
-                            <li><a href="#">Kontakt</a></li>
-                        </ul>
-                    </nav>
-                    <div class="burger__sicial">
-                        <a href="#"><img src="./assets/images/index/facebook-app-logo.svg" alt="facebook"></a>
-                        <a href="#"><img src="./assets/images/index/instagram.svg" alt="instagram"></a>
+                    <div class="header__wrap header__wrap--burger">
+                        <div class="header__logo">
+                            <img src="./assets/images/index/nav_logo.png" alt="">
+                        </div>
+                            <div class="header__btn-menu animationClose">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="header__title">
+                                <span>Navigation</span>
+                                <p>Schliessen</p>
+                            </div>
                     </div>
-                    <div class="burger__link">
-                        <a href="#">Impressum</a>
-                        <a href="#">Datenschutz</a>
-                        <a href="#">AGB</a>
+                    
+                    <div class="burger__inner">
+                        <nav class="burger__nav">
+                            <ul>
+                                <li><a href="#"><span>GJIN</span> Home</a></li>
+                                <li><a href="#">Partner werden</a> </li>
+                                <li><a href="#">Anfrage</a>  </li>
+                                <li><a href="#">Kontakt</a></li>
+                            </ul>
+                        </nav>
+                        <div class="burger__sicial">
+                            <a href="#"><img src="./assets/images/index/facebook-app-logo.svg" alt="facebook"></a>
+                            <a href="#"><img src="./assets/images/index/instagram.svg" alt="instagram"></a>
+                        </div>
+                        <div class="burger__link">
+                            <a href="#">Impressum</a>
+                            <a href="#">Datenschutz</a>
+                            <a href="#">AGB</a>
+                        </div>
                     </div>
                 </div>
             </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jcf/1.2.3/js/jcf.js" integrity="sha512-4jMtRk+JvvtQBALl5QaOVMoU8qjwfnWVZxTbvU7mpnhGVDOBctvV/x+TiZmgePH4wBv0LefhsU46GvWq7ckGww==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jcf/1.2.3/js/jcf.select.js" integrity="sha512-yfjvs9oIEYB/9YXnqSJtaQcfRN9NXfEHYnxHgVoxCqLZKkJ/753JEqzKj001/J8bcyqJZvVlRdWeR1jRNMCLWQ==" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
 </body>
 
