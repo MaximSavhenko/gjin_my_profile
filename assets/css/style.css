@@ -916,13 +916,6 @@ img {
     cursor: pointer;
 }
 
-@media (max-width: 767px) {
-    .header__btn-menu {
-        width: 20px;
-        height: 20px;
-    }
-}
-
 .header__btn-menu.animationClose span:nth-child(1) {
     top: 10px;
     -webkit-transform: rotate(-45deg);
@@ -1115,6 +1108,12 @@ img {
     color: #424242;
     font-weight: 300;
     font-size: 32px;
+}
+
+@media (max-width: 767px) {
+    .burger__nav a {
+        font-size: 20px;
+    }
 }
 
 .burger__nav a span {
@@ -1742,6 +1741,12 @@ img {
     }
 }
 
+@media (max-width: 500px) {
+    .list__tr {
+        padding: 19px 0px 22px 0;
+    }
+}
+
 .list__tr:first-child {
     padding-top: 0;
 }
@@ -1754,6 +1759,12 @@ img {
     font-size: 35px;
     font-weight: 300;
     text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+    .list__tr span {
+        font-size: 30px;
+    }
 }
 
 .list__tr p {
@@ -2310,11 +2321,12 @@ img {
 
 .impressum__text-block span {
     margin-bottom: 35px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .impressum__text-block p {
     margin-bottom: 35px;
+    font-weight: 300;
 }
 
 .impressum__text-block p:last-child {
@@ -2322,7 +2334,8 @@ img {
 }
 
 .impressum__quelle p {
-    font-weight: 700;
+    font-weight: 400;
+    color: #000;
 }
 
 .event {
@@ -2586,7 +2599,7 @@ img {
     justify-content: flex-start;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .form--text .form__inputs {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2607,7 +2620,7 @@ img {
     justify-content: space-between;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .form--text .form__one-input {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2672,7 +2685,7 @@ img {
     width: 100%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
     .form--text .form__textarea {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -2754,8 +2767,13 @@ img {
 
 .form--text .form__btn {
     max-width: 670px;
-    text-align: right;
     margin-left: auto;
+}
+
+@media (max-width: 1023px) {
+    .form--text .form__btn {
+        margin-left: 0;
+    }
 }
 
 .form--text .form__btn .button {
