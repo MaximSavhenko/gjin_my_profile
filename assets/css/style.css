@@ -1081,7 +1081,7 @@ img {
 }
 
 .header__btn-menu span:nth-child(2) {
-    top: 11px;
+    top: 10px;
 }
 
 .header__btn-menu span:nth-child(3) {
@@ -3117,6 +3117,10 @@ img {
     margin: 0 auto;
 }
 
+.input-group__wrap--no-center {
+    margin: 100px 0;
+}
+
 .input-group__inputs {
     display: -ms-flexbox;
     display: flex;
@@ -3183,6 +3187,14 @@ img {
     .input-group--account .input-group__hints {
         font-size: 16px;
     }
+}
+
+.input-group--account .input-group__inputs {
+    margin-bottom: 40px;
+}
+
+.input-group--account .input-group__inputs:last-child {
+    margin-bottom: 0;
 }
 
 .become__header {
