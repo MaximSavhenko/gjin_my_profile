@@ -37,7 +37,16 @@
                         <p>needs something</p>
                     </div>
                     <div class="header__btn-login">
-                        <a href="#" class="header__checkin">Registrieren</a>
+                        <div class="dropdown">
+                            <a class="header__checkin" href="#">More</a>
+                            <span>
+                                <ul>
+                                    <li><a href="/user/40/edit">Accoutdetails</a></li>
+                                    <li><a href="/user/40">Mein Profil</a></li><li></li>
+                                </ul>
+                            </span>
+                        </div>
+                        <!-- <a href="#" class="header__checkin">Registrieren</a> -->
                         <a href="#" class="header__logout button button--grin">Einloggen</a>
                     </div>
                 </div>
@@ -50,8 +59,7 @@
                         <div class="event__header">
                             <div class="container container--991w">
                                 <span class="event__header-title">EVENT / GASTRONOMIE</span>
-                                <span class="event__header-descr">AUSRICHTEN EINER FIRMENFEIER / 40 </span>
-                                <span class="event__header-descr">jähriges Jubiläum mit ca. 70 Personen</span>
+                                <span class="event__header-descr">AUSRICHTEN EINER FIRMENFEIER / 40 jähriges Jubiläum mit ca. 70 Personen</span>
                             </div>
                         </div>
                 
@@ -109,9 +117,9 @@
                         <div class="event__body">
                 
                             <div class="container container--991w">
-                                <p class="event__body-title">Was erwarten wir</p>
+                                <p>Was erwarten wir</p>
                     
-                                <ul class="event__body-list">
+                                <ul>
                                     <li>Einen Raum bzw. Saal</li>
                                     <li>Kleine Bühne mit Technik</li>
                                     <li>DJ für die Abendunterhaltung</li>
@@ -121,12 +129,12 @@
                                     <li>Warmes und kaltes Buffet</li>
                                 </ul>
                     
-                                <div class="event__body-descr">
-                                    <span>Die Getränke werden separat abgerechnet.</span>
-                                    <span>Hierfür benötigen wir eine Preisliste für</span>
+                                <div>
+                                    <strong>Die Getränke werden separat abgerechnet.</strong>
+                                    <strong>Hierfür benötigen wir eine Preisliste für</strong>
                                 </div>
                     
-                                <ul class="event__body-list">
+                                <ul>
                                     <li>Wasser ( still und mineral)</li>
                                     <li>Bier mindesten 2 Sorten</li>
                                     <li>Sekt Preis pro Glas</li>
@@ -135,13 +143,13 @@
                                     <li>Kaffeesortiment </li>
                                 </ul>
                     
-                                <div class="event__postscr">
+                                <span>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                     et dolore magna aliqua.
                                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                     consequat.
                                     Duis aute irure dolor in
-                                </div>
+                                </span>
                             </div>
                 
                         </div>
@@ -150,7 +158,7 @@
                            <div class="container container--991w"> <button type="button" class="button" data-toggle="collapse" href="#collapseExample">Angebot abgeben</button></div>
                         </div>
                 
-                        <div class="input-gforgot-passwordroup collapse" id="collapseExample">
+                        <div class="group-form collapse" id="collapseExample">
                            <div class="container container--991w input-group">
                                 <form accept="" class="input-group__wrap ">
                                     <input type="text" placeholder="Betreff">
